@@ -3,8 +3,8 @@ body {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 10vh);
+    overflow: hidden;
 }
-
 
 h1 {
     position: relative;
@@ -51,4 +51,13 @@ img:hover {
     -moz-transform: scale(110%);
     -ms-transform: scale(110%);
     -o-transform: scale(110%);
+}
+
+
+h1, h2 ,img {
+    transform: translateY(-10vh);
+    -webkit-transform: translateY(-10vh);
+    -moz-transform: translateY(-10vh);
+    -ms-transform: translateY(-10vh);
+    -o-transform: translateY(-10vh);
 }
