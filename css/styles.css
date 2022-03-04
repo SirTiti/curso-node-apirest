@@ -3,7 +3,7 @@ body {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 10vh);
-    overflow: hidden;
+    overflow-y: hidden !important;
 }
 
 h1 {
