@@ -44,16 +44,6 @@ img {
 }
 
 
-img:hover {
-    cursor: pointer;
-    transform: scale(110%);
-    -webkit-transform: scale(110%);
-    -moz-transform: scale(110%);
-    -ms-transform: scale(110%);
-    -o-transform: scale(110%);
-}
-
-
 h1, h2 ,img {
     transform: translateY(-10vh);
     -webkit-transform: translateY(-10vh);
